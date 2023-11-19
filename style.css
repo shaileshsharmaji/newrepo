@@ -1,0 +1,38 @@
+.container{
+    height: 400px ;
+    width: 400px;
+    background-color: azure;
+    border: 2px solid teal;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: center;}
+
+
+.container div{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.div{
+    background-color: pink;
+    height: 50px;
+    width: 900px;
+    display: flex;
+    border: 2px solid teal;
+    border-radius: 10px;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+
+    
